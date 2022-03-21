@@ -1,0 +1,90 @@
+body {
+  background: rgba(45, 13, 70, 1);
+  font-family:'Roboto' sans-serif;
+}
+
+.container {
+  background-color:rgba(234, 229, 237, 1);
+  margin:64px;
+  border-radius:20px;
+  box-shadow:2px, 2px, 10px;
+  padding:64px;
+}
+
+.cabecalho {
+  display:flex;
+  justify-content:space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.foto {
+  border-radius:400px;
+  height:160px;
+  width:160px;
+  box-shadow:2px 2px 10px;
+}
+
+.titulo {
+  margin-left:16px;
+}
+
+.titulo h1 {
+  font-weight:700;
+  font-size:36px;
+}
+
+.titulo h3 {
+  font-weight:400;
+  font-size:24px;
+}
+
+.tema button{
+  align-self:flex-end;
+  font-size:24px;
+  font-weight:400;
+  padding:8px 16px;
+  background:rgba(151, 177, 191, 1);
+  border-radius:100px;
+}
+
+
+ 
+.projetos {
+  display:flex;
+  flex-direction:column;
+  background-color:rgba(35, 95, 186, 0.88);
+  margin-top:20px;
+  padding:32px;
+  border-radius:20px;
+  box-shadow:2px 2px 10px;
+}
+
+.titulos {
+  list-style:none;
+  font-weight:700;
+  font-size:36px;
+}
+
+.itens {
+  list-style-type:none;
+  font-weight:400;
+  font-size:24px;
+  line-height:48px;
+  text-align:center;
+}
+.itens a{
+  color:#1C1C1C;
+  text-decoration:none;
+}
+
+.dark {
+  background:rgba(97, 0, 255, 0.65); 
+}
+
+.dark .container {
+  background: rgba(0, 0, 0, 0.9);
+  color:white;
+}
